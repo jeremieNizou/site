@@ -3,23 +3,6 @@ body{
 	background-color: #f2f2f2;
 }
 
-#header{
-	background-color: #157fc5;
-	color: white;
-	height: 100px;
-	padding-left: 15%;
-}
-
-#nom{
-	font-size: 40px;
-	text-decoration: none;
-	color: white;
-}
-
-#dev{
-	font-size: 20px;
-}
-
 #nav{
 	background-color: #515253;
 	height: 30px;
@@ -76,65 +59,103 @@ body{
 	padding-bottom: 5px;
 }
 
+
+
+
+
+
 /* Large desktops and laptops */
 @media only screen and (min-width: 1200px) {
 	#header{
-		background-color: red; /* A EFFACER */
+		background-color: #157fc5;
+		height: 100px;
+		padding-left: 15%;
+	}
+
+	#nom{
+		font-size: 40px;
+		text-decoration: none;
+		color: white;
+	}
+
+	#dev{
+		font-size: 20px;
 	}
 }
 
 /* Landscape tablets and medium desktops */
 @media only screen and (max-width: 1199px) {
 	#header{
-		background-color: green; /* A EFFACER */
+		background-color: #157fc5;
+		height: 100px;
+		padding-left: 15%;
+	}
+
+	#nom{
+		font-size: 40px;
+		text-decoration: none;
+		color: white;
+	}
+
+	#dev{
+		font-size: 20px;
 	}
 }
 
 /* Portrait tablets and small desktops */
 @media only screen and (max-width: 991px) {
-	#header {
-		height: 160px;
-		background-color: lightblue; /* A EFFACER */
+	#header{
+		background-color: #157fc5;
+		height: 100px;
+		padding-left: 15%;
 	}
 
 	#nom{
-		font-size: 70px;
+		font-size: 40px;
+		text-decoration: none;
+		color: white;
 	}
 
 	#dev{
-		font-size: 30px;
+		font-size: 20px;
 	}
 }
 
 /* Landscape phones and portrait tablets */
 @media only screen and (max-width: 767px) {
-	#header {
-		height: 160px;
-		background-color: blue; /* A EFFACER */
+	#header{
+		background-color: #157fc5;
+		height: 100px;
+		padding-left: 15%;
 	}
 
 	#nom{
-		font-size: 70px;
+		font-size: 40px;
+		text-decoration: none;
+		color: white;
 	}
 
 	#dev{
-		font-size: 30px;
+		font-size: 20px;
 	}
 }
 
 /* Portrait phones and smaller */
 @media only screen and (max-width: 480px) {
-	#header {
-		height: 160px;
-		background-color: yellow; /* A EFFACER */
+	#header{
+		background-color: #157fc5;
+		height: 100px;
+		padding-left: 15%;
 	}
 
 	#nom{
-		font-size: 70px;
+		font-size: 35px;
+		text-decoration: none;
+		color: white;
 	}
 
 	#dev{
-		font-size: 30px;
+		font-size: 17px;
 	}
 }
 
