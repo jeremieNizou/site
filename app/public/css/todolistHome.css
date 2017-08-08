@@ -13,11 +13,14 @@
 
 .divs {
 	padding: 5px;
-	margin: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .choix {
-	width: 90%;
+	width: 95%;
 }
 
 .inlineBox {
@@ -27,7 +30,7 @@
 }
 
 .inlineBox button {
-	margin-right: 5px;
+	margin-right: 25px;
 }
 
 .inputText {
@@ -81,3 +84,46 @@
 }
 
 
+/* Large desktops and laptops */
+@media only screen and (min-width: 1200px) {
+	
+}
+
+/* Landscape tablets and medium desktops */
+@media only screen and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media only screen and (max-width: 991px) {
+	#titre h1{
+		font-size: 50px;
+	}
+
+	#todoList {
+		max-width: none;
+		min-width: none;
+		margin: 10px;
+		border: 2px solid lightblue;
+		background-color: lightblue;
+		border-radius: 10px;
+	}
+
+	.divs {
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-size: 40px;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media only screen and (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media only screen and (max-width: 480px) {
+
+}
