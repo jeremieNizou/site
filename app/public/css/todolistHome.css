@@ -2,8 +2,12 @@
 	text-align: center;
 }
 
+#titre h1{
+	font-size: 50px;
+}
+
 #todoList {
-	max-width: 400px;
+	max-width: 500px;
 	min-width: 200px;
 	margin: auto;
 	border: 2px solid lightblue;
@@ -17,6 +21,7 @@
 	margin-right: 5px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	font-size: 20px;
 }
 
 .choix {
@@ -27,6 +32,7 @@
 	display: inline-block;
 	padding: 0px;
 	margin: 0px;
+	padding-left: 10px;
 }
 
 .inlineBox button {
@@ -115,6 +121,10 @@
 		margin-top: 20px;
 		margin-bottom: 20px;
 		font-size: 40px;
+	}
+
+	.divs input[type=checkbox] {
+		transform: scale(2.5);
 	}
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 
-var myApp = angular.module("myApp", ["ngRoute", "ngCookies"]);
+var myApp = angular.module("myApp", ["ngRoute", "ngCookies", "ngAnimate"]);
 
 myApp.config(["$routeProvider", "$locationProvider", function($routeProvider, $locationProvider) {
 	$locationProvider.html5Mode(true);

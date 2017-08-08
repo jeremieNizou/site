@@ -1,5 +1,10 @@
 .divBouton {
 	text-align: right;
+	height: 70px;
+}
+
+.divBouton a span {
+	font-size: 50px;
 }
 
 #boutonRetour {
