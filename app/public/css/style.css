@@ -77,23 +77,65 @@ body{
 }
 
 /* Large desktops and laptops */
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
+	#header{
+		background-color: red; /* A EFFACER */
+	}
 }
 
 /* Landscape tablets and medium desktops */
-@media (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (max-width: 1199px) {
+	#header{
+		background-color: green; /* A EFFACER */
+	}
 }
 
 /* Portrait tablets and small desktops */
-@media (min-width: 768px) and (max-width: 991px) {
+@media only screen and (max-width: 991px) {
+	#header {
+		height: 160px;
+		background-color: lightblue; /* A EFFACER */
+	}
+
+	#nom{
+		font-size: 70px;
+	}
+
+	#dev{
+		font-size: 30px;
+	}
 }
 
 /* Landscape phones and portrait tablets */
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
+	#header {
+		height: 160px;
+		background-color: blue; /* A EFFACER */
+	}
+
+	#nom{
+		font-size: 70px;
+	}
+
+	#dev{
+		font-size: 30px;
+	}
 }
 
 /* Portrait phones and smaller */
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
+	#header {
+		height: 160px;
+		background-color: yellow; /* A EFFACER */
+	}
+
+	#nom{
+		font-size: 70px;
+	}
+
+	#dev{
+		font-size: 30px;
+	}
 }
 
 
