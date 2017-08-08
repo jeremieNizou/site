@@ -1,0 +1,38 @@
+"use strict";
+
+var myApp = angular.module("myApp", ["ngRoute", "ngCookies"]);
+
+myApp.config(["$routeProvider", "$locationProvider", function($routeProvider, $locationProvider) {
+	$locationProvider.html5Mode(true);
+	$routeProvider
+		.when("/todolisteBDD", {
+			templateUrl: "views/todolistHome.html",
+			controller: "todolistHomeCtrl"
+		})
+		.when("/todolisteBDD/presentation/:id", {
+			templateUrl: "views/todolistPres.html",
+			controller: "todolistPresCtrl"
+		})
+		.when("/todoliste", {
+			templateUrl: "views/todolist.html",
+			controller: "todolistCtrl"
+		})
+		.when("/", {
+			templateUrl: "views/acceuil.html"
+		})
+		.otherwise({
+			redirectTo: "/"
+		});
+}]);
+
+
+
+
+
+
+
+
+
+
+
+
