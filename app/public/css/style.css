@@ -36,6 +36,8 @@ body{
 	opacity: 0.7;
 }
 
+/*****************************************/
+
 .contactItem{
 	display: inline-block;
 	background-color: lightgray;
@@ -46,8 +48,89 @@ body{
 	padding-bottom: 5px;
 }
 
+.popover-content{
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.boxPopupTelephone {
+	text-align: center;
+}
+
+.boxPopupLinkedin {
+	text-align: right;
+}
+
+.boxPopupLinkedinText {
+	text-align: right;
+	margin-top: -12px;
+}
+
+.arrowMail{
+	font-size: 30px;
+	margin-left: 10%;
+	margin-top: -9px;
+}
+
+.arrowTelephone{
+	font-size: 30px;
+	margin-top: -9px;
+}
+
+.arrowLinkedin{
+	font-size: 30px;
+	margin-right: 12%;
+	margin-top: -9px;
+}
+
+.boxMail{
+	margin-top: -12px;
+	display: table;
+	padding: 0px;
+	padding-left: 2px;
+}
+
+.boxTelephone{
+	margin: auto;
+	margin-top: -12px;
+	display: table;
+	padding: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.boxLinkedin{
+	margin-top: -12px;
+	display: inline-block;
+	padding: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.btnCopy {
+	padding: 2px;
+	font-size: 15px;
+	display: inline-block;
+}
 
 
+.contactFade.ng-enter {
+	transition:0.5s linear all;
+	opacity:0;
+	transform: translateX(50px);
+}
+.contactFade.ng-enter.ng-enter-active {
+	opacity:1;
+	transform: translateX(0);
+}
+			
+.contactFade.ng-leave {
+	transition:0s linear all;
+	opacity:1;
+}
+.contactFade.ng-leave.ng-leave-active {
+	opacity:0;
+}
 
 
 
@@ -112,6 +195,16 @@ body{
 		font-size: 25px;
 		text-decoration: none;
 		padding-right: 10%;
+	}
+
+	.boxMail {
+		font-size: 13px;
+	}
+	.boxTelephone {
+		font-size: 13px;
+	}
+	.boxLinkedin {
+		font-size: 13px;
 	}
 }
 

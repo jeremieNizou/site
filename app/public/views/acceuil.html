@@ -2,7 +2,7 @@
 
 <div id="col2" class="col-lg-3 col-md-3">
 	<div class="case" id="casePhoto">
-		<div style="height: 200px; background-color: blue;"></div>
+		<div style="height: 200px; background-color: white;"></div>
 		<div id="age"> 25 ans</div>
 	</div>
 
@@ -19,23 +19,48 @@
 	<div class="case">
 		<h4>CONTACT</h4>
 		<div>
-			<div class="contactItem">
+			<div class="contactItem" ng-click="changeMail()">
 				<span class="glyphicon glyphicon-envelope"></span>
 			</div>
-			<div class="contactItem">
+			<div class="contactItem" ng-click="changeTelephone()">
 				<span class="glyphicon glyphicon-phone"></span>
 			</div>
-			<div class="contactItem">
+			<div class="contactItem" ng-click="changeLinkedin()">
 			<i class="fa fa-linkedin"></i>
 			</div>
+			<div class="contactFade" ng-if="mail">
+				<span class="glyphicon glyphicon-triangle-top arrowMail"></span>
+				<div class="popover-content boxMail">
+					jeremie.nizou@gmail.com
+					<button class="btn btnCopy" data-clipboard-text="jeremie.nizou@gmail.com">
+						<span class="glyphicon glyphicon-copy"></span>
+					</button>
+				</div>
+			</div>
+
+			<div class="contactFade boxPopupTelephone" ng-if="telephone">
+				<span class="glyphicon glyphicon-triangle-top arrowTelephone"></span>
+				<div class="popover-content boxTelephone">
+					06-98-93-52-33
+				</div>
+			</div>
+
+			<div class="contactFade boxPopupLinkedin" ng-if="linkedin">
+				<span class="glyphicon glyphicon-triangle-top arrowLinkedin"></span>
+				<div class="boxPopupLinkedinText">
+					<div class="popover-content boxLinkedin">
+						<a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9mie-nizou-991053110" target="_blank">jeremie.nizou</a>
+					</div>
+				</div>
+			</div>
+			
 		</div>
 	</div>
-
 	<div class="case">
 		
 	</div>
 </div>
 
-<div class="col-lg-6 col-md-6" style="background-color: blue; height: 100px">
+<div class="col-lg-6 col-md-6" style="background-color: white; height: 100px">
 	
 </div>

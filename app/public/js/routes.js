@@ -18,7 +18,8 @@ myApp.config(["$routeProvider", "$locationProvider", function($routeProvider, $l
 			controller: "todolistCtrl"
 		})
 		.when("/", {
-			templateUrl: "views/acceuil.html"
+			templateUrl: "views/acceuil.html", 
+			controller: "acceuilCtrl"
 		})
 		.otherwise({
 			redirectTo: "/"
