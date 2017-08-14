@@ -25,15 +25,3 @@ myApp.config(["$routeProvider", "$locationProvider", function($routeProvider, $l
 			redirectTo: "/"
 		});
 }]);
-
-
-
-
-
-
-
-
-
-
-
-

@@ -5,7 +5,6 @@ myApp.controller("acceuilCtrl", function($scope) {
 	$scope.telephone = false;
 	$scope.linkedin = false;
 
-
 	// Fonctions d'affichage des fonctions CONTACT
 	$scope.changeMail = function() {
 		$scope.mail = !$scope.mail;
@@ -24,8 +23,6 @@ myApp.controller("acceuilCtrl", function($scope) {
 		$scope.telephone = false;
 		$scope.linkedin = !$scope.linkedin;
 	}
-
-
 
 
 	// Evenement pour copier le mail
