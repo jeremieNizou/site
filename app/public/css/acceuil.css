@@ -72,6 +72,10 @@ body{
 	border-radius: 5px;
 }
 
+.boxPopupMail {
+	text-align: left;
+}
+
 .boxPopupTelephone {
 	text-align: center;
 }
@@ -134,6 +138,8 @@ body{
 	font-size: 15px;
 	display: inline-block;
 }
+
+
 
 
 .contactFade.ng-enter {
@@ -304,7 +310,7 @@ body{
 
 	#col2 {
 		width: 248px;
-		height: 2000px;
+		height: 2700px;
 	}
 
 	.casePhoto {
