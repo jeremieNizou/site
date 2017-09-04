@@ -3,7 +3,26 @@ body{
 	background-color: #f2f2f2;
 }
 
-/***********************************************************/
+/******** Partie gauche ***********/
+
+#col2 {
+	width: 285px;
+	height: 1000px;
+}
+
+.case {
+	text-align: center;
+}
+
+.casePhoto {
+	text-align: center;
+	display: initial;
+}
+
+.casePhotoPetite {
+	text-align: center;
+	display: none;
+}
 
 #col2 .case{
 	padding: 15px;
@@ -36,7 +55,7 @@ body{
 	opacity: 0.7;
 }
 
-/***********************************************************/
+/******** Contact ***********/
 
 .contactItem{
 	display: inline-block;
@@ -133,6 +152,34 @@ body{
 }
 .contactFade.ng-leave.ng-leave-active {
 	opacity:0;
+}
+
+
+/******** Partie centrale ***********/
+
+.caseTexte {
+	background-color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.caseTexte h4 {
+	color: #157fc5;
+}
+
+.entreprise {
+	color: lightgray;
+	font-size: 16px;
+}
+
+.periode {
+	color: lightgray;
+	font-style: italic;
+}
+
+#formation {
+	margin-top: 40px;
 }
 
 /***********************************************************/
@@ -240,6 +287,24 @@ body{
 		text-decoration: none;
 		padding-right: 5%;
 	}
+
+	#col2 {
+		width: 248px;
+		height: 1000px;
+	}
+
+	.casePhoto {
+		text-align: center;
+		display: none;
+	}
+
+	.casePhotoPetite {
+		text-align: center;
+		display: initial;
+	}
+
+
+
 }
 
 /* Landscape phones and portrait tablets */
