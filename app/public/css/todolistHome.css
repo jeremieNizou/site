@@ -30,6 +30,7 @@
 
 .divDescription h2{
 	font-size: 45px;
+	font-style: italic;
 }
 
 .choix {
@@ -141,6 +142,7 @@
 
 	.divDescription h2{
 		font-size: 45px;
+		font-style: italic;
 	}
 }
 
