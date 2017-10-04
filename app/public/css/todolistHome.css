@@ -24,6 +24,14 @@
 	font-size: 20px;
 }
 
+.divDescription {
+	margin-top: 40px;
+}
+
+.divDescription h2{
+	font-size: 45px;
+}
+
 .choix {
 	width: 95%;
 }
@@ -125,6 +133,14 @@
 
 	.divs input[type=checkbox] {
 		transform: scale(2.5);
+	}
+
+	.divDescription {
+		margin-top: 40px;
+	}
+
+	.divDescription h2{
+		font-size: 45px;
 	}
 }
 
