@@ -10,6 +10,10 @@
 		<input placeholder="Que devez-vous faire ?" ng-model="todo.nom" class="todoItem" focus-me="true" required>
 	</form>
 
+	<div ng-if="encours" class="encours">
+		Chargement en cours..
+	</div>
+
 	<div ng-repeat="item in list | filter: recherche" class="divFade divs">
 		<input type="checkbox" ng-model="selectionne[$index]" ng-click="changeSelectionIndex($index)">
 

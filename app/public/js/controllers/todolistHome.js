@@ -13,11 +13,14 @@ myApp.controller("todolistHomeCtrl", function($scope, serviceAjax) {
 
 // Fonctions CRUD
 	var affiche = function() {
+		$scope.encours = true;
 		serviceAjax.afficheAll().then(function onSuccess(response) {
 			if( response === "err" ) {
+				$scope.encours = false;
 				alert("Probleme affiche");
 			}
 			else {
+				$scope.encours = false;
 				$scope.list = response.data;
 				$scope.list.forEach(function(value, key) {
 					$scope.selectionne[key] = false;
