@@ -17,6 +17,9 @@ myApp.config(["$routeProvider", "$locationProvider", function($routeProvider, $l
 			templateUrl: "views/todolist.html",
 			controller: "todolistCtrl"
 		})
+		.when("/lebonthe", {
+			templateUrl: "views/lebonthe.html"
+		})
 		.when("/", {
 			templateUrl: "views/acceuil.html", 
 			controller: "acceuilCtrl"

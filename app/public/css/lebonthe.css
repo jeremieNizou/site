@@ -1,0 +1,21 @@
+h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.descriptionThe {
+  text-align: center;
+}
+
+.descriptionThe p {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: justify;
+}

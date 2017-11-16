@@ -28,23 +28,26 @@
 		<link rel="stylesheet" href="css/acceuil.css">
 		<link rel="stylesheet" href="css/todolistHome.css">
 		<link rel="stylesheet" href="css/todolistPres.css">
+		<link rel="stylesheet" href="css/lebonthe.css">
 		<link rel="stylesheet" type="text/css" href="css/openSans.css">
 		<link rel="icon" href="images/favicon.ico">
 	</head>
 
 	<body>
-	<div id="header">
-		<a href="/" id="nom">
-			Jérémie Nizou
-			<p id="dev">Développeur Web Full Stack Junior</p>
-		</a>
-	</div>
-	<div id="nav">
-		<a href="/">Acceuil</a>
-		<a href="/todoliste">Votre ToDo liste</a>
-		<a href="/todolisteBDD">ToDo liste avec BDD</a>
-	</div>
-
-	<div ng-view></div>
+		<div class="navbar navbar-default navbar-fixed-top">
+			<div id="header">
+				<a href="/" id="nom">
+					Jérémie Nizou
+					<p id="dev">Développeur Web Full Stack Junior</p>
+				</a>
+			</div>
+			<div id="nav">
+				<a href="/">Acceuil</a>
+				<a href="/todoliste">Votre ToDo liste</a>
+				<a href="/todolisteBDD">ToDo liste avec BDD</a>
+				<a href="/lebonthe">Le Bon Thé</a>
+			</div>
+		</div>
+		<div ng-view class="view"></div>
 	</body>
 </html>
