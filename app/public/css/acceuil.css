@@ -217,6 +217,10 @@ body {
 		padding-left: 15%;
 	}
 
+	.view {
+		margin-top: 138px;
+	}
+
 	#nom {
 		font-size: 40px;
 		text-decoration: none;
@@ -237,7 +241,7 @@ body {
 		color: white;
 		font-size: 25px;
 		text-decoration: none;
-		padding-right: 8%;
+		padding-right: 6%;
 	}
 }
 
@@ -249,6 +253,10 @@ body {
 		padding-left: 15%;
 	}
 
+	.view {
+		margin-top: 138px;
+	}
+
 	#nom {
 		font-size: 40px;
 		text-decoration: none;
@@ -269,7 +277,7 @@ body {
 		color: white;
 		font-size: 25px;
 		text-decoration: none;
-		padding-right: 8%;
+		padding-right: 6%;
 	}
 
 	.boxMail {
@@ -289,6 +297,10 @@ body {
 		background-color: #157fc5;
 		height: 200px;
 		padding-left: 5%;
+	}
+
+	.view {
+		margin-top: 244px;
 	}
 
 	#nom {
