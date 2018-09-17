@@ -11,7 +11,7 @@ body {
 
 #col2 {
 	width: 285px;
-	height: 1300px;
+	height: 2300px;
 }
 
 .case {
@@ -49,6 +49,21 @@ body {
 }
 
 #col2 .case li {
+	background-color: gray;
+	padding: 2px;
+	list-style-type: none;
+	display: inline-block;
+	margin: 2px;
+	border-radius: 5px;
+	color: white;
+	opacity: 0.7;
+}
+
+.technos ul {
+	padding: 0px;
+}
+
+.technos li {
 	background-color: gray;
 	padding: 2px;
 	list-style-type: none;
@@ -200,16 +215,22 @@ body {
 }
 
 .entreprise {
-	color: lightgray;
+	color: darkgray;
+	font-weight: bold;
 }
 
 .periode {
-	color: lightgray;
+	color: darkgray;
 	font-style: italic;
 }
 
 #formation {
 	margin-top: 40px;
+}
+
+.description {
+	color: #769ee0;
+	font-weight: bold;
 }
 
 /***********************************************************/
@@ -339,7 +360,7 @@ body {
 
 	#col2 {
 		width: 248px;
-		height: 2700px;
+		height: 5300px;
 	}
 
 	.casePhoto {

@@ -1,0 +1,22 @@
+<div style="text-align: center; padding-bottom: 33px; position: sticky; top: 139px; background-color: #f2f2f2;">
+	<audio controls autoplay id="player">
+		<source src="../music/{{song}}"" type="audio/mpeg" id="songPlaying">
+	</audio>
+	<div>
+		<span ng-click="prev()" class="selectBouton selectBoutonPrev">prev</span>&emsp;&emsp;
+		<span ng-click="next()" class="selectBouton selectBoutonNext">next</span>
+	</div>
+</div>
+
+<div style="text-align: center; position: sticky; top: 250px; background-color: #f2f2f2;">
+	<div id="songTitle">
+		{{song}}
+	</div>
+</div>
+<table align="center">
+	<tbody>
+		<tr ng-repeat="item in list track by $index" class="selectSong" ng-click="changeSong(item, $index)" ng-class="{selectedSong: $index === indice}">
+			<td>{{item}}</td>
+		</tr>
+	</tbody>
+</table>

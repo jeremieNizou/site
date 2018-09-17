@@ -20,6 +20,10 @@ myApp.config(["$routeProvider", "$locationProvider", function($routeProvider, $l
 		.when("/lebonthe", {
 			templateUrl: "views/lebonthe.html"
 		})
+		.when("/music", {
+			templateUrl: "views/music.html",
+			controller: "musicCtrl"
+		})
 		.when("/", {
 			templateUrl: "views/acceuil.html", 
 			controller: "acceuilCtrl"
