@@ -1,0 +1,85 @@
+<div class="col-md-1 col-lg-1"></div>
+
+<div id="col2" class="col-xs-4 col-sm-3 col-md-3 col-lg-2">
+	<div class="case">
+		<div class="casePhoto">
+			<img src="images/profil.jpg" height="268" width="225">
+		</div>
+		<div class="casePhotoPetite">
+			<img src="images/profil.jpg" height="224" width="188">
+		</div>
+		<div class="age"> 29 ans</div>
+	</div>
+
+	<div class="case">
+		<ul>
+			<li>HMTL5/CSS3</li>
+			<li>Angular 2/4/8/9</li>
+			<li>AngularJS</li>
+			<li>NodeJS</li>
+			<li>ExpressJS</li>
+			<li>MongoDB</li>
+		</ul>
+	</div>
+
+	<div class="case">
+		<h3><span class="glyphicon glyphicon-user"></span> CONTACT</h3>
+		<div>
+			<div class="contactItem" ng-click="changeMail()">
+				<span class="glyphicon glyphicon-envelope"></span>
+			</div>
+			<div class="contactItem" ng-click="changeTelephone()">
+				<span class="glyphicon glyphicon-phone"></span>
+			</div>
+			<div class="contactItem" ng-click="changeLinkedin()">
+				<i class="fa fa-linkedin"></i>
+			</div>
+			<div class="contactFade boxPopupMail" ng-if="mail">
+				<span class="glyphicon glyphicon-triangle-top arrowMail"></span>
+				<div class="popover-content boxMail">
+					jeremie.nizou@gmail.com
+					<button class="btn btnCopy" data-clipboard-text="jeremie.nizou@gmail.com">
+						<span class="glyphicon glyphicon-copy"></span>
+					</button>
+				</div>
+			</div>
+
+			<div class="contactFade boxPopupTelephone" ng-if="telephone">
+				<span class="glyphicon glyphicon-triangle-top arrowTelephone"></span>
+				<div class="popover-content boxTelephone">
+					06-98-93-52-33
+				</div>
+			</div>
+
+			<div class="contactFade boxPopupLinkedin" ng-if="linkedin">
+				<span class="glyphicon glyphicon-triangle-top arrowLinkedin"></span>
+				<div class="boxPopupLinkedinText">
+					<div class="popover-content boxLinkedin">
+						<a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9mie-nizou-991053110"
+							target="_blank">jeremie.nizou</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="case">
+		<a href="https://github.com/jeremieNizou/" target="_blank" class="lienCV">
+			Mon GitHub <i class="fa fa-github" style="font-size:24px"></i>
+		</a>
+		<!-- <a href="images/CV_Jeremie_Nizou.pdf" target="_blank" download="CV_Jeremie_Nizou.pdf" class="lienCV">Télécharger CV</a> -->
+	</div>
+</div>
+
+<!-- <div class="col-xs-8 col-sm-8 col-md-7 col-lg-8 caseTexte">
+</div> -->
+
+<div class="col-xs-8 col-sm-8 col-md-7 col-lg-8">
+	<div
+		style="text-align: center; font-size: 90px; font-weight: bold; height: 500px; align-items: center; display: flex; justify-content: center;">
+		<div>
+			MAINTENANCE . . .
+		</div>
+	</div>
+</div>
